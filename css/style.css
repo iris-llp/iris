@@ -1,0 +1,120 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
+body{
+    overflow-x:hidden;
+}
+.navbar {
+    box-shadow: 2px 2px 5px black;
+    background: #fff; }
+
+    .navbar .nav-item {
+      font-size: 1.4rem;
+      padding-right: 1.4rem; }
+
+
+#showcase{
+
+    position: relative;
+    background: url("../img/iot.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#showcase .primary-overlay {
+    background: rgba(46, 49, 49, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+
+.profile-pic{
+    width:auto;
+    height: 150px;
+}
+
+#founders img{
+    margin-top: -30px;
+}
+
+#founders .card:hover{
+    background: #f1f1f1;
+}
+
+
+#about{
+    position: relative;
+    min-height:200px;
+    background: url('../img/chip.jpg') ;
+    background-attachment: fixed;
+    background-repeat:none;
+    text-align: center;
+    color: white;
+}
+
+.dark-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#video-play{
+    position:relative;
+    min-height: 200px;
+    background: url('../img/chip.jpg');
+    background-attachment: fixed;
+    background-repeat: None;
+    background-position: 0 -300px;
+    text-align: center;
+    color: white;
+}
+
+#video-play a{
+    color: #fff;
+}
+
+
+
+@media(max-width: 768px){
+    
+    #showcase{
+        min-height: 500px;
+    }
+    #showcase h1{
+        font-size:4rem;
+    }
+
+    #video-play h1{
+        font-size: 1rem;
+    }
+
+    .mb-resp{
+        margin-bottom:1rem;
+    }
+}
+
